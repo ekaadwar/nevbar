@@ -1,3 +1,7 @@
+.navbar-atas{
+	font-size: 14px;
+}
+
 .navbar-atas .nav-link{
 	color : #C01F2F !important;
 }
@@ -26,7 +30,7 @@
 /* Desktop Device */
 @media (min-width: 992px) {
 	.navbar-atas{
-		
+		text-transform: uppercase;
 	}
 
 	.navbar-bawah{
