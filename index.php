@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Hello, world!</title>
+
+    <title>Navbar</title>
   </head>
   <body>
-    <!-- navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light clearfix">
+    <!-- navbar atas -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="img/logoLangkoMenu.png" alt="Logo Langkok"></a>
+        <a class="navbar-brand" href="#"><img width="30" src="img/logoLangkoMenu.png" alt="Logo Langkok"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -40,7 +41,22 @@
         </div>
       </div>
     </nav>
-    <!-- akhir navbar -->
+    <!-- akhir navbar atas-->
+
+    <!-- navbar bawah -->
+    <nav class="fixed-bottom navbar-bawah clearfix">
+      <div class="container">
+        <table width="100%">
+          <tr>
+            <td><a class="" href="">Keranjang</a></td>
+            <td><a class="" href="">Notifikasi</a></td>
+            <td  class="text-right"><a href="">Masuk</a></td>
+          </tr>
+        </table>
+        
+      </div>
+    </nav>
+    <!-- akhir navbar bawah-->
 
     <!-- jumbotron -->
     <div class="jumbotron jumbotron-fluid">
