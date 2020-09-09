@@ -1,5 +1,15 @@
+.navbar-bawah{
+	line-height : 40px;
+	background-color: #fff;
+}
 
+.navbar-bawah svg{
+	color : #C01F2F;
+}
 
+.navbar-bawah svg:hover{
+	color : black;
+}
 
 /* Desktop Device */
 @media (min-width: 992px) {

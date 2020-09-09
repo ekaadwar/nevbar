@@ -44,7 +44,7 @@
     <!-- akhir navbar atas-->
 
     <!-- navbar bawah -->
-    <nav class="fixed-bottom navbar-bawah clearfix">
+    <nav class="navbar-bawah fixed-bottom clearfix">
       <div class="container">
         <table width="100%">
           <tr>
@@ -80,17 +80,13 @@
 
     <!-- jumbotron -->
     <div class="jumbotron jumbotron-fluid">
-      <div class="container">
+      <div class="container pt-100">
         <h1 class="display-4">Fluid jumbotron</h1>
         <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
       </div>
     </div>
     <!-- akhir jumbotron -->
 
-    <div class="bg-info clearfix">
-      <button type="button" class="btn btn-secondary float-left">Example Button floated left</button>
-      <button type="button" class="btn btn-secondary float-right">Example Button floated right</button>
-    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
