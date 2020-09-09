@@ -1,3 +1,11 @@
+.navbar-atas .nav-link{
+	color : #C01F2F !important;
+}
+
+.navbar-atas .nav-link:hover{
+	color : black !important;
+}
+
 .navbar-bawah{
 	line-height : 40px;
 	background-color: #fff;
@@ -11,8 +19,16 @@
 	color : black;
 }
 
+.jumbotron{
+	padding-top: 100px;
+}
+
 /* Desktop Device */
 @media (min-width: 992px) {
+	.navbar-atas{
+		
+	}
+
 	.navbar-bawah{
 		display : none;
 	}

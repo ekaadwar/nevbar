@@ -14,7 +14,7 @@
   </head>
   <body>
     <!-- navbar atas -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-top">
+    <nav class="navbar navbar-atas fixed-top navbar-expand-lg navbar-light bg-light ">
       <div class="container">
         <a class="navbar-brand" href="#"><img width="30" src="img/logoLangkoMenu.png" alt="Logo Langkok"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,7 +80,7 @@
 
     <!-- jumbotron -->
     <div class="jumbotron jumbotron-fluid">
-      <div class="container pt-100">
+      <div class="container">
         <h1 class="display-4">Fluid jumbotron</h1>
         <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
       </div>
