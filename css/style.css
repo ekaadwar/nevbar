@@ -20,11 +20,7 @@
 }
 
 .navbar-sekunder .container table{
-<<<<<<< HEAD
-	margin-top: -30px;
-=======
 	margin-top: -20px;
->>>>>>> toggler
 	position : relative;
 	z-index: 1;
 	display : none;
