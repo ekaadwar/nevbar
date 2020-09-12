@@ -1,5 +1,14 @@
+.navbar{
+	position : absolute;
+}
+
 .navbar-atas{
 	font-size: 14px;
+	
+}
+
+.bg-navbar{
+	background-color : white;
 }
 
 .navbar-atas .nav-link{
@@ -8,6 +17,16 @@
 
 .navbar-atas .nav-link:hover{
 	color : black !important;
+}
+
+.navbar-sekunder .container{
+	margin-top: 50px;
+	position : relative;
+	z-index: 1;
+}
+
+.navbar-sekunder a{
+	display : inline-block;
 }
 
 .navbar-bawah{
