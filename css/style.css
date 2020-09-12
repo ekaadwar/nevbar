@@ -1,5 +1,14 @@
+.navbar{
+	position: relative;
+}
+
 .navbar-atas{
 	font-size: 14px;
+	
+}
+
+.bg-navbar{
+	background-color : white;
 }
 
 .navbar-atas .nav-link{
@@ -8,6 +17,28 @@
 
 .navbar-atas .nav-link:hover{
 	color : black !important;
+}
+
+.navbar-sekunder .container table{
+	margin-top: -20px;
+	position : relative;
+	z-index: 1;
+	display : none;
+}
+
+.navbar-sekunder td a{
+	padding : 0 10px;
+}
+
+.navbar-sekunder a{
+	display : inline-block;
+	color : #C01F2F;
+	text-decoration: none;
+}
+
+.navbar-sekunder a:hover{
+	display : inline-block;
+	color : black;
 }
 
 .navbar-bawah{
@@ -30,7 +61,16 @@
 /* Desktop Device */
 @media (min-width: 992px) {
 	.navbar-atas{
-		text-transform: uppercase;
+		text-transform : uppercase;
+		font-size : 12px;
+	}
+
+	.navbar-sekunder{
+		text-transform : uppercase;
+	}
+
+	.navbar-sekunder .container table{
+		display : inline-block;
 	}
 
 	.navbar-bawah{
