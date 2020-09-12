@@ -20,7 +20,7 @@
 }
 
 .navbar-sekunder .container table{
-	margin-top: -20px;
+	margin-top: -30px;
 	position : relative;
 	z-index: 1;
 	display : none;
@@ -63,6 +63,8 @@
 	.navbar-atas{
 		text-transform : uppercase;
 		font-size : 12px;
+		padding-bottom: 15px
+
 	}
 
 	.navbar-sekunder{
