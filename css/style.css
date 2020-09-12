@@ -1,6 +1,5 @@
 .navbar{
-	position: absolute;
-	z-index: 1;
+	padding-bottom: 5px !important;
 }
 
 .navbar-atas{
@@ -19,8 +18,11 @@
 	color : black !important;
 }
 
-.navbar-sekunder .container table{
-	margin-top: -27px;
+.navbar-sekunder{
+	margin-top : 40px;
+}
+
+.navbar-sekunder .container table{	
 	position : relative;
 	z-index: 1;
 	display : none;
@@ -37,7 +39,6 @@
 }
 
 .navbar-sekunder a:hover{
-	display : inline-block;
 	color : black;
 }
 
@@ -52,6 +53,10 @@
 
 .navbar-bawah svg:hover{
 	color : black;
+}
+
+.jumbotron{
+
 }
 
 .jumbotron img{
@@ -79,10 +84,17 @@
 		padding-bottom: 15px;
 	}
 
+	.navbar-atas img{
+		width : 40px;
+	}
+
 	.navbar-sekunder{
 		text-transform : uppercase;
 		font-size : 16px;
-		padding-bottom: 10px;
+	}
+
+	.navbar-atas .nav-link{
+		margin-top: -25px;
 	}
 
 	.navbar-sekunder .container table{
@@ -94,9 +106,10 @@
 	}
 
 	.jumbotron{
-		max-height : 595px;
+		height : 695px;
 		box-shadow: 0 2px 15px grey;
 		margin-bottom: 0;
+		padding-top: 150px;
 	}
 
 	section {
@@ -105,4 +118,5 @@
 		box-shadow: 0 2px 15px grey;
 		background-color: white;
 	}
+
 }
