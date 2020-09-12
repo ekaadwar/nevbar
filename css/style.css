@@ -20,7 +20,11 @@
 }
 
 .navbar-sekunder .container table{
+<<<<<<< HEAD
 	margin-top: -30px;
+=======
+	margin-top: -20px;
+>>>>>>> toggler
 	position : relative;
 	z-index: 1;
 	display : none;
@@ -64,12 +68,6 @@
 		text-transform : uppercase;
 		font-size : 12px;
 		padding-bottom: 15px
-
-	}
-
-	.navbar-sekunder{
-		text-transform : uppercase;
-		background-color: grey;
 	}
 
 	.navbar-sekunder .container table{
