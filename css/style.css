@@ -18,6 +18,7 @@
 	color : black !important;
 }
 
+
 .navbar-sekunder{
 	margin-top : 40px;
 }
@@ -56,7 +57,10 @@
 }
 
 .jumbotron{
-
+	/*height : 695px;*/
+	box-shadow: 0 2px 15px grey;
+	margin-bottom: 0;
+	padding-top: 100px;
 }
 
 .jumbotron img{
@@ -74,6 +78,7 @@
 
 /* Tablet Device */
 @media (min-width: 576px) {
+	
 }
 
 /* Desktop Device */
