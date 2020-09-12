@@ -20,7 +20,7 @@
 }
 
 .navbar-sekunder .container table{
-	margin-top: -25px;
+	margin-top: -20px;
 	position : relative;
 	z-index: 1;
 	display : none;
@@ -61,11 +61,13 @@
 /* Desktop Device */
 @media (min-width: 992px) {
 	.navbar-atas{
-		text-transform: uppercase;
+		text-transform : uppercase;
+		font-size : 12px;
 	}
 
 	.navbar-sekunder{
-		text-transform: uppercase;
+		text-transform : uppercase;
+		background-color: grey;
 	}
 
 	.navbar-sekunder .container table{
