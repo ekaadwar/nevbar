@@ -54,8 +54,21 @@
 	color : black;
 }
 
-.jumbotron{
-	padding-top: 100px;
+.jumbotron img{
+	border-radius: 10px;
+}
+
+.jumbotron img.gambar1{
+	width : 100%;
+}
+
+.jumbotron img.gambar2{
+	width : 100%;
+	margin-bottom: 15px
+}
+
+/* Tablet Device */
+@media (min-width: 576px) {
 }
 
 /* Desktop Device */
