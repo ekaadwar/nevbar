@@ -1,10 +1,10 @@
 .navbar{
-	position: relative;
+	position: absolute;
+	z-index: 1;
 }
 
 .navbar-atas{
 	font-size: 14px;
-	
 }
 
 .bg-navbar{
@@ -20,7 +20,7 @@
 }
 
 .navbar-sekunder .container table{
-	margin-top: -20px;
+	margin-top: -27px;
 	position : relative;
 	z-index: 1;
 	display : none;
@@ -76,7 +76,13 @@
 	.navbar-atas{
 		text-transform : uppercase;
 		font-size : 12px;
-		padding-bottom: 15px
+		padding-bottom: 15px;
+	}
+
+	.navbar-sekunder{
+		text-transform : uppercase;
+		font-size : 16px;
+		padding-bottom: 10px;
 	}
 
 	.navbar-sekunder .container table{
@@ -85,5 +91,18 @@
 
 	.navbar-bawah{
 		display : none;
+	}
+
+	.jumbotron{
+		max-height : 595px;
+		box-shadow: 0 2px 15px grey;
+		margin-bottom: 0;
+	}
+
+	section {
+		margin-top : 0;
+		min-height : 695px;
+		box-shadow: 0 2px 15px grey;
+		background-color: white;
 	}
 }
