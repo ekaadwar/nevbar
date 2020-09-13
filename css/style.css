@@ -88,9 +88,9 @@ section {
 
 .kategori{
 	height : 500px;
-	background-image: url("../img/bg-kategori.jpg");
+	/*background-image: url("../img/bg-kategori.jpg");
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: cover;*/
 }
 
 .kategori h2{
