@@ -88,21 +88,11 @@ section {
 
 .kategori{
 	height : 500px;
-	background-image: url("../img/bg-kategori.jpg");
+	/*background-image: url("../img/bg-kategori.jpg");
 	background-attachment: fixed;
-	background-size: cover;
-	position: relative;
-}
 
-.kategori::after{
-	content : '';
-	display: block;
-	width : 100%;
-	height : 100%;
-	background-color: black;
-	text-align : center;
-	position : absolute;
-	bottom : 0;
+	background-size: cover;*/
+
 }
 
 .kategori h2{
