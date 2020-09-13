@@ -86,28 +86,88 @@ section {
 	background-color: white;
 }
 
+.kategori{
+	height : 500px;
+	/*background-image: url("../img/bg-kategori.jpg");
+	background-attachment: fixed;
+
+	background-size: cover;*/
+
+}
+
 .kategori h2{
 	font-size: 20px;
 	color: #C01F2F;
 	padding: 25px 0;
 }
 
-.ketegori button.btn{
-	margin-bottom: 100px
-	padding-top: : 20px;
-	height : 100px !important;
-	display : inline-block !important;
+.row-bawah .col{
+	display : inline-block;
+}
+
+.ketegori .container{
+	position: relative;
+	z-index: 2;
+}
+
+.kategori .col-kanan{
+	text-align : right;
+}
+
+.kategori .col_inline{
+	display : none;
+}
+
+.kategori .isi a{
+	margin-bottom: 	20px;
+}
+
+a.tmb_kategori{
+	display : inline-block;
+	width : 120px;
+	height : 175px;
+	border : 2px solid #C01F2F;
+	text-align : center;
+	padding-bottom: 	0;
+	box-sizing: border-box;
+	color : #C01F2F;
+	text-decoration: none;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+a.tmb_kategori:hover{
+	color : white;
+	background-color: #C01F2F;
+	border : 2px solid #fff;
 }
 
 .kategori h3{
 	font-size : 15px;
-	padding-top: 75px;
+	padding-top: 135px;
 }
 
-
 /* Tablet Device */
-@media (min-width: 576px) {
-	
+@media (min-width: 768px) {
+	.kategori h2{
+		font-size: 30px;
+		color: #C01F2F;
+		padding: 80px 0;
+	}
+
+	.row-bawah .col{
+		display : none;
+	}
+
+	.kategori .col_inline{
+		display : inline-block;
+	}
+
+	.kategori .col{
+		text-align : center;
+	}
+
+
 }
 
 /* Desktop Device */
@@ -146,11 +206,23 @@ section {
 		padding-top: 150px;
 	}
 
-	section.kategori{
-		margin-top : 0;
-		min-height : 695px;
-		box-shadow: 0 2px 15px grey;
-		background-color: white;
+	.kategori{
+		height : 695px;
 	}
+
+	.kategori h2{
+		padding: 130px 0;
+	}
+
+	.kategori h3{
+		font-size : 20px;
+		padding-top: 190px;
+	}
+
+	a.tmb_kategori{
+	width : 80%;
+	height : 250px;
+
+}
 
 }
