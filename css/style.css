@@ -143,8 +143,8 @@ a.tmb_kategori:hover{
 }
 
 .kategori h3{
-	font-size : 15px;
-	padding-top: 135px;
+	font-size : 12px;
+	padding-top: 150px;
 }
 
 /* Tablet Device */
@@ -166,7 +166,6 @@ a.tmb_kategori:hover{
 	.kategori .col{
 		text-align : center;
 	}
-
 
 }
 
@@ -220,9 +219,8 @@ a.tmb_kategori:hover{
 	}
 
 	a.tmb_kategori{
-	width : 80%;
-	height : 250px;
-
-}
+		width : 80%;
+		height : 250px;
+	}
 
 }
