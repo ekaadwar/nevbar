@@ -132,6 +132,7 @@ a.tmb_kategori{
 a.tmb_kategori:hover{
 	color : white;
 	background-color: #C01F2F;
+	border : 2px solid #fff;
 }
 
 .kategori h3{
@@ -205,5 +206,16 @@ a.tmb_kategori:hover{
 	.kategori h2{
 		padding: 130px 0;
 	}
+
+	.kategori h3{
+		font-size : 20px;
+		padding-top: 190px;
+	}
+
+	a.tmb_kategori{
+	width : 80%;
+	height : 250px;
+
+}
 
 }
