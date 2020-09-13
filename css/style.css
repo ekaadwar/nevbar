@@ -86,6 +86,13 @@ section {
 	background-color: white;
 }
 
+.kategori{
+	height : 500px;
+	background-image: url("../img/bg-kategori.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
 .kategori h2{
 	font-size: 20px;
 	color: #C01F2F;
@@ -94,10 +101,6 @@ section {
 
 .row-bawah .col{
 	display : inline-block;
-}
-
-.kategori{
-	height : 500px;
 }
 
 .kategori .col-kanan{
@@ -123,6 +126,7 @@ a.tmb_kategori{
 	color : #C01F2F;
 	text-decoration: none;
 	border-radius: 10px;
+	background-color: #fff;
 }
 
 a.tmb_kategori:hover{
@@ -192,6 +196,14 @@ a.tmb_kategori:hover{
 		box-shadow: 0 2px 15px grey;
 		margin-bottom: 0;
 		padding-top: 150px;
+	}
+
+	.kategori{
+		height : 695px;
+	}
+
+	.kategori h2{
+		padding: 130px 0;
 	}
 
 }
