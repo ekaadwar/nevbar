@@ -91,6 +91,18 @@ section {
 	background-image: url("../img/bg-kategori.jpg");
 	background-attachment: fixed;
 	background-size: cover;
+	position: relative;
+}
+
+.kategori::after{
+	content : '';
+	display: block;
+	width : 100%;
+	height : 100%;
+	background-color: black;
+	text-align : center;
+	position : absolute;
+	bottom : 0;
 }
 
 .kategori h2{
@@ -101,6 +113,11 @@ section {
 
 .row-bawah .col{
 	display : inline-block;
+}
+
+.ketegori .container{
+	position: relative;
+	z-index: 2;
 }
 
 .kategori .col-kanan{
