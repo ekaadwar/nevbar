@@ -62,8 +62,7 @@ body{
 
 .jumbotron{
 	box-shadow: 0 2px 15px grey;
-	margin-bottom: 0;
-	padding-top: 100px;
+	padding-top: 75px !important;
 }
 
 .jumbotron img{
@@ -82,23 +81,17 @@ body{
 section {
 	margin-top : 0;
 	min-height : 300px;
-	box-shadow: 0 2px 15px grey;
 	background-color: white;
 }
 
-.kategori{
-	height : 500px;
-	/*background-image: url("../img/bg-kategori.jpg");
-	background-attachment: fixed;
-
-	background-size: cover;*/
-
-}
-
-.kategori h2{
+section h2{
 	font-size: 20px;
 	color: #C01F2F;
 	padding: 25px 0;
+}
+
+.kategori .isi a{
+	box-shadow: 0 0 15px #888888;
 }
 
 .row-bawah .col{
@@ -128,7 +121,7 @@ a.tmb_kategori{
 	height : 175px;
 	border : 2px solid #C01F2F;
 	text-align : center;
-	padding-bottom: 	0;
+	padding-bottom: 0;
 	box-sizing: border-box;
 	color : #C01F2F;
 	text-decoration: none;
@@ -141,18 +134,57 @@ a.tmb_kategori:hover{
 	background-color: #C01F2F;
 	border : 2px solid #fff;
 }
-
+	
 .kategori h3{
 	font-size : 12px;
 	padding-top: 150px;
 }
 
+/*.makanan .isi .col{
+	border : 1px solid black;
+}*/
+
+.makanan a{
+	width : 80px;
+	height : 150px;
+	/*border : 1px solid red;*/
+	text-decoration: none;
+	text-align : center;
+	display : inline-block;
+}
+
+.col.tablet, .col.desktop{
+	display : none;
+}
+ 
+.makanan a p{
+	font-size: 12px;
+	margin-top: 5px;
+	color : #5E0000;
+}
+
+.makanan a:hover p{
+	color : #C01F2F;
+}
+
+.makanan a:hover .gambar{
+	background-color: #C01F2F;
+}
+
+.makanan .gambar{
+	width : 100%;
+	height : 75px;
+	background-color: #5E0000;
+	border-radius: 10px
+}
+
 /* Tablet Device */
 @media (min-width: 768px) {
-	.kategori h2{
-		font-size: 30px;
+	section h2{
+		font-size: 25px;
 		color: #C01F2F;
-		padding: 80px 0;
+		padding: 20px 0;
+		margin-top : 0;
 	}
 
 	.row-bawah .col{
@@ -165,6 +197,18 @@ a.tmb_kategori:hover{
 
 	.kategori .col{
 		text-align : center;
+	}
+
+	.makanan a{
+		width : 100px;
+	}
+
+	.makanan .gambar{
+		height : 100px;
+	}
+
+	.col.tablet{
+		display : inline-block;
 	}
 
 }
@@ -202,15 +246,16 @@ a.tmb_kategori:hover{
 		height : 695px;
 		box-shadow: 0 2px 15px grey;
 		margin-bottom: 0;
-		padding-top: 150px;
+		padding-top: 100px !important;
 	}
 
-	.kategori{
+	section{
 		height : 695px;
+		box-sizing: box;
 	}
 
-	.kategori h2{
-		padding: 130px 0;
+	section h2{
+		padding: 70px 0;
 	}
 
 	.kategori h3{
@@ -221,6 +266,10 @@ a.tmb_kategori:hover{
 	a.tmb_kategori{
 		width : 80%;
 		height : 250px;
+	}
+
+	.col.desktop{
+		display : inline-block;
 	}
 
 }
