@@ -61,7 +61,6 @@ body{
 }
 
 .jumbotron{
-	box-shadow: 0 2px 15px grey;
 	padding-top: 75px !important;
 }
 
@@ -79,7 +78,7 @@ body{
 }
 
 section {
-	margin-top : 0;
+	margin : 0;
 	min-height : 300px;
 	background-color: white;
 }
@@ -91,17 +90,17 @@ section h2{
 }
 
 .kategori .isi a{
-	box-shadow: 0 0 15px #888888;
+	box-shadow: 0 0 5px #888888;
 }
 
 .row-bawah .col{
 	display : inline-block;
 }
 
-.ketegori .container{
+/*.ketegori .container{
 	position: relative;
 	z-index: 2;
-}
+}*/
 
 .kategori .col-kanan{
 	text-align : right;
@@ -117,7 +116,7 @@ section h2{
 
 a.tmb_kategori{
 	display : inline-block;
-	width : 120px;
+	width : 100px;
 	height : 175px;
 	border : 2px solid #C01F2F;
 	text-align : center;
@@ -137,7 +136,7 @@ a.tmb_kategori:hover{
 	
 .kategori h3{
 	font-size : 12px;
-	padding-top: 150px;
+	padding-top: 140px;
 }
 
 /*.makanan .isi .col{
@@ -153,7 +152,7 @@ a.tmb_kategori:hover{
 	display : inline-block;
 }
 
-.col.tablet, .col.desktop{
+.col.desktop{
 	display : none;
 }
  
@@ -178,6 +177,14 @@ a.tmb_kategori:hover{
 	border-radius: 10px
 }
 
+/* Landscape Phone */
+@media(min-width : 485px){
+	.col.mobile-lands{
+		display : inline-block;
+	}	
+}
+
+
 /* Tablet Device */
 @media (min-width: 768px) {
 	section h2{
@@ -197,6 +204,10 @@ a.tmb_kategori:hover{
 
 	.kategori .col{
 		text-align : center;
+	}
+
+	a.tmb_kategori{
+		width : 120px;
 	}
 
 	.makanan a{
