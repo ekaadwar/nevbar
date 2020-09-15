@@ -138,7 +138,7 @@ a.tmb_kategori:hover{
 	text-align: center;
 }
 
-.makanan a{
+a.item-produk{
 	display: inline-block;
 	background-color: white;
 	width : 125px;
@@ -150,11 +150,11 @@ a.tmb_kategori:hover{
 	margin-bottom: 20px;
 }
 
-.makanan a:hover{
+a.item-produk:hover{
 	box-shadow: 0 0 5px #5E0000;
 }
 
-.makanan a:hover h3{
+a.item-produk:hover h3{
 	color: #C01F2F;
 }
 
@@ -164,6 +164,10 @@ a.tmb_kategori:hover{
 	background-color: #5E0000;
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
+}
+
+.col.item-tab, .col.item-desktop{
+	display: none;
 }
 
 .makanan .deskripsi{
@@ -195,6 +199,10 @@ p.daerah{
 
 p.jargon{
 	color : black;
+}
+
+.btn.tmb-lengkap{
+	margin-top: 25px;
 }
 
 
@@ -240,6 +248,10 @@ p.jargon{
 
 	a.tmb_kategori{
 		width : 120px;
+	}
+
+	.col.item-tab{
+		display: inline-block;
 	}
 }
 
@@ -302,4 +314,7 @@ p.jargon{
 		display : inline-block;
 	}
 
+	.col.item-desktop{
+		display: inline-block;
+	}
 }
