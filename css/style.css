@@ -213,8 +213,8 @@ p.jargon{
 /* Landscape Phone */
 @media(min-width : 480px){
 	.col.item-landsphone{
-	display: inline-block;
-}
+		display: inline-block;
+	}
 }
 
 
