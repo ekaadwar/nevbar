@@ -92,6 +92,11 @@ section h2{
 	padding: 25px 0;
 }
 
+/*section h3{
+	text-align : left;
+	font-size: 14px;
+}*/
+
 .kategori .isi a{
 	box-shadow: 0 0 5px #888888;
 }
@@ -202,11 +207,33 @@ p.daerah{
 
 p.jargon{
 	color : black;
-}
+}	
 
 .btn.tmb-lengkap{
 	margin-top: 25px;
 	font-size: 15px
+}
+
+.artikel img, .artikel p{
+	width : 100%;
+}
+
+.artikel img{
+	border-radius : 10px;
+}
+
+.artikel .sub-judul{
+	text-align : left;
+}
+
+.artikel .sub-judul h3{
+	font-size: 18px;
+	color : #C01F2F;
+}
+
+.artikel p{
+	text-align : justify;
+	font-size : 14px;
 }
 
 
@@ -309,4 +336,22 @@ p.jargon{
 	.col.item-desktop{
 		display: inline-block;
 	}
+
+	.artikel .sub-judul h3{
+		font-size: 20px;
+	}
+
+	.artikel p{
+		text-align : justify;
+		font-size : 18px;
+		color : ;
+	}
+
+	.artikel .row{
+		margin-bottom: 25px;
+	}
+
+	/*.artikel a{
+		font-style: italic;
+	}*/
 }
